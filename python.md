@@ -1,5 +1,5 @@
 ## Knowledge base for Python
-How to build an egg package in steps
+How to build an egg package in steps </br></br>
  1) Create setup.py file in root dir, use template below:
   
   ```python
@@ -50,6 +50,7 @@ setup(
 )
 ```
 
-2) Run: sudo python setup.py install
+2) Run:   ```python sudo python setup.py install ```
+
    to generate egg and install dependencies
 
