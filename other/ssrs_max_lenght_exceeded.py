@@ -8,4 +8,6 @@ Solution:
      to
      <httpRuntime executionTimeout=”9000″ maxRequestLength = “16384” />
  3) maybe ssrs restart will be needed
-     
+ 
+ 
+ url: https://biatlink.wordpress.com/2013/06/27/error-in-ssrs-system-web-httpexception-maximum-request-length-exceeded/
