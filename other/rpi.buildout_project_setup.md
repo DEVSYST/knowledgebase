@@ -7,7 +7,7 @@ Missing Python libraries
 <h2>System prerequisites:</h2>
 libraries: lxml, pyodbc 
 
-<h2>Steps:</h2>
+<h2>Steps how to setup project:</h2>
 
 
 1. clone repository rpi.buildout
