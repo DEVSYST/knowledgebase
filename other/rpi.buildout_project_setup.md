@@ -1,5 +1,9 @@
 <h1>Description how to setup rpi.buildout project </h1>
 
+
+<h2>Problem description:</h2>
+Missing Python libraries
+
 <h2>System prerequisites:</h2>
 libraries: lxml, pyodbc 
 
