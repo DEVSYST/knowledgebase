@@ -17,7 +17,7 @@ command: virtual [env_name] </br>
 (creates isolated environment) </br>
 then: source [env_name]/bin/activate </br>
 4. pip install zc.buildout </br>
-5. pyhon bootstrap.py
+5. python bootstrap.py
 (create project structure)
 6. ./bin/buildout
 (build project dependencies)
