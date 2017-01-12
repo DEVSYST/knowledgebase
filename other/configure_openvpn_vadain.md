@@ -4,6 +4,18 @@ First, in a the terminal install the following packages:
 
 sudo apt-get install network-manager network-manager-openvpn
 
+* issue with installing network-manager ?
+
+  error message: Reading package lists... Error!
+  
+  solution:
+  
+  sudo rm /var/lib/apt/lists/* -vf
+  
+  sudo apt-get update
+  
+    
+
 Then restart the network-manager daemon
 
 sudo service network-manager restart
