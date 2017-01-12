@@ -1,4 +1,4 @@
-Branch prefix:
+Branch prefixes:
 
 - feature
 - test
