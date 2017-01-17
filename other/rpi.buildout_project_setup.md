@@ -17,9 +17,12 @@ command: virtualenv [env_name] </br>
 (creates isolated environment) </br>
 then: source [env_name]/bin/activate </br>
 4. pip install zc.buildout </br>
-5. python bootstrap.py
+5. python bootstrap.py --setuptools-version=32
 (create project structure)
 6. ./bin/buildout
 (build project dependencies)
 7. ./bin/manage.py makemigrations </br>
 ./bin/manage.py migrate
+
+Adding python exectuable to virtualenv enviroment
+add2virtualenv omelette/
