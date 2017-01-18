@@ -1,0 +1,29 @@
+18.01.2017
+
+HI
+
+Hello, just a sec
+ok
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'vadain': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'vadain.sqlite3'),
+    },
+}
+
+DATABASE_ROUTERS = ['vadain.backend.databaserouter.DatabaseRouter']
+
+
+
+from vadain.backend.models.debtor import Atelier
+
+atelier = Atelier.objects.get(cname='Whatever Atelier')
+
+atelier.cname = "JEAH!!!"
+
+atelier.save()
