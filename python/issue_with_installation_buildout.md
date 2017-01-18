@@ -7,6 +7,7 @@ Steps how to deal with the issue:
 virtualenv env
 source env/bin/activate
 pip install zc.buildout
+pip install setuptools==32
 python bootstrap.py
 .bin/buildout
 
